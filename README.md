@@ -11,14 +11,13 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 3. Create a navigation component so that it is easier to switch between your home and gallery pages. Use `<Link></Link>` component from 'next/link' instead of `<a></a>`.
 4. Fetch the photos from `https://jsonplaceholder.typicode.com/photos` and display the thumbnails in the gallery page.
 5. Each image should be clickable. Create a dynamic route for the photo detail page.
-6. Clicking on an image will open a modal created using a Parallel and Intercepting route.
-7. Refreshing the page while the modal is open should load the actual photo detail page.
+6. Clicking on an image will open a modal created using a `Parallel` and `Intercepting` route.
+7. Refreshing the page while the modal is open should load the actual photo detail page route.
 8. Commit and push your changes once you are done.
 
 ### Important Notes 📝
 
 - Use TailwindCSS classes to style your elements.
-- Every time you make changes to your parallel and intercepting route, make sure to run `npm run dev` again.
 - Use the `<Image />` component from 'next/image' to display an image. Do **NOT** use `<img>`. Here is the link to their documentation [https://nextjs.org/docs/app/api-reference/components/image].
 - Make sure to replace the code inside your `next.config.ts` file with the code below. You need to do this so that you can use `<Image />` with the images provided by `jsonplaceholder.typicode.com`:
 
